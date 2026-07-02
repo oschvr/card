@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const chalk = require("chalk");
 let card = chalk.black(String.raw`
  __________________________________________________
@@ -7,17 +9,17 @@ let card = chalk.black(String.raw`
 | |                                              | |
 | |        ${chalk.white.underline("Cloud 🌥  & Software 🛠  Engineer")}       | |
 | |                                              | |
-| |   ${chalk.white.bold("Twitter 🐦")}:  ${chalk.blue.underline(
-  "https://twitter.com/oschvr"
+| |   ${chalk.white.bold("Mastodon: 🐘")}:  ${chalk.blue.underline(
+  "https://mastodon.online/@oschvrr",
 )}    | |
 | |   ${chalk.white.bold("Github 🐙")}:   ${chalk.blue.underline(
-  "https://github.com/oschvr"
+  "https://github.com/oschvr",
 )}     | |
 | |   ${chalk.white.bold("Email 📧")}:    ${chalk.blue.underline(
-  "oschvr@protonmail.com"
+  "hey@oschvr.com",
 )}         | |
 | |   ${chalk.white.bold("Web 💻")}:      ${chalk.blue.underline(
-  "https://oschvr.com"
+  "https://oschvr.com",
 )}            | |
 | |                                              | |
 | |______________________________________________| |

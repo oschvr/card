@@ -1,17 +1,15 @@
 {
   "name": "oschvr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "oschvr.com",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "oschvr"
   ],
-  "author": "Oscar Chavez <oschvr@protonmail.com>",
+  "author": "Oscar Chavez <hey@oschvr.com>",
   "license": "MIT",
   "dependencies": {
+    "boxen": "^4.2.0",
     "chalk": "^4.1.0"
   }
 }
